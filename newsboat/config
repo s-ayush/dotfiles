@@ -1,0 +1,23 @@
+auto-reload yes
+reload-time 3600
+
+bookmark-cmd "~/bin/pocket.sh"
+bookmark-autopilot yes
+
+browser "firefox %u & &> /dev/null"
+refresh-on-startup yes
+
+keep-articles-days 14
+max-items 100
+history-limit 0
+feed-sort-order firsttag
+
+bind-key j next
+bind-key k prev
+bind-key J end
+bind-key K home
+bind-key l open
+bind-key h quit
+
+bind-key j up "tagselection"
+bind-key k down "tagselection"

@@ -1,0 +1,50 @@
+[
+    {
+        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{8a36c305-18cd-45fa-8e80-d2a81361606f}.",
+        "name": "DuckDuckGo",
+        "trigger": "!ddg ",
+        "url": "https://duckduckgo.com/?q=%s"
+    },
+    {
+        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{139b3616-e987-43dd-8ece-6c58fa1041bc}.",
+        "name": "Go to Subreddit",
+        "trigger": "r/",
+        "url": "https://www.reddit.com/r/%s"
+    },
+    {
+        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{5235dcf2-6948-43cc-a9fc-9761f497b30d}.",
+        "name": "YouTube",
+        "trigger": "!yt ",
+        "url": "https://www.youtube.com/results?search_query=%s"
+    },
+    {
+        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{63b429e2-d209-4706-bc2e-a1335a76f686}.",
+        "name": "Merriam-Webster Dictionary",
+        "trigger": "define ",
+        "url": "https://www.merriam-webster.com/dictionary/%s"
+    },
+    {
+        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{889398f5-9cc1-4441-a8b0-1e0a7f13b2a6}.",
+        "name": "GitHub",
+        "trigger": "!gh ",
+        "url": "https://github.com/search?utf8=✓&q=%s"
+    },
+    {
+        "iconPath": ":wolfram",
+        "name": "Wolfram Alpha",
+        "trigger": "=",
+        "url": "https://www.wolframalpha.com/input/?i=%s"
+    },
+    {
+        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{5f4b5283-62a3-4537-974f-aa7d65d3728a}.",
+        "name": "Amazon",
+        "trigger": "!a ",
+        "url": "http://www.amazon.in/s/?field-keywords=%s"
+    },
+    {
+        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{8532f95f-d424-4ebb-a7ae-14d1d8c1cfd4}.",
+        "name": "Google",
+        "trigger": "!g ",
+        "url": "https://endrypted.google.com/search?q=%s"
+    }
+]

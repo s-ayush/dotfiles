@@ -1,0 +1,32 @@
+directory: ~/Music/Library
+library: ~/.config/beets/library.db
+color: yes
+original_date: yes
+threaded: yes
+
+import:
+        write: yes
+        move: yes
+
+match:
+        preferred:
+            countries: ['US', 'GB|UK']
+            media: ['CD', 'Digital Media|File']
+            original_year: yes
+
+paths:
+    default: $albumartist/$album%aunique{}/$track - $title
+    singleton: Non-Album/$artist/$title
+    comp: Compilations/$album%aunique{}/$track - $title
+
+plugins: fetchart embedart fromfilename
+
+fetchart:
+        enforce_ratio: yes
+        minwidth: 600
+
+        fanarttv_key: 9e73610bf0f7052df609fd8f32fb9e82
+        sources: filesystem fanarttv coverart amazon albumart
+
+        #embedart:
+        #maxwidth: 500 
