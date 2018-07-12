@@ -30,3 +30,13 @@ alias subdl='subdl -i'
 alias vi='vim'
 alias youtube='youtube-dl -x --audio-format mp3 --audio-quality 0'
 alias :q='exit'
+
+eval $(keychain --eval --quiet --nogui --noask id_rsa_github)
+
+if [ "$TERM" = "linux" ]; then
+    _SEDCMD='s/.*\*color\([0-9]\{1,\}\).*#\([0-9a-fA-F]\{6\}\).*/\1 \2/p'
+    for i in $(sed -n "$_SEDCMD" $HOME/.Xresources | awk '$1 < 16 {printf "\\e]P%X%s", $1, $2}'); do
+        echo -en "$i"
+    done
+    clear
+fi
