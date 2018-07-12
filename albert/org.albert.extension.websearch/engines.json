@@ -1,32 +1,38 @@
 [
     {
-        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{8a36c305-18cd-45fa-8e80-d2a81361606f}.",
+        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{ba94ba47-3701-46f1-b9ca-6a9fe9eb504e}.png",
         "name": "DuckDuckGo",
-        "trigger": "!ddg ",
+        "trigger": "duck: ",
         "url": "https://duckduckgo.com/?q=%s"
     },
     {
-        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{139b3616-e987-43dd-8ece-6c58fa1041bc}.",
+        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{d39c8867-141d-443d-8e49-79b7ed8db424}.png",
+        "name": "DuckDuckGo Images",
+        "trigger": "img: ",
+        "url": "https://duckduckgo.com/?q=%s&t=h_&iax=images&ia=images"
+    },
+    {
+        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{ef777b38-ea6a-4b6e-84ea-ce04da4b15f0}.png",
         "name": "Go to Subreddit",
         "trigger": "r/",
         "url": "https://www.reddit.com/r/%s"
     },
     {
-        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{5235dcf2-6948-43cc-a9fc-9761f497b30d}.",
+        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{ad60e4b7-c898-49e9-adfa-af894776cd0c}.png",
         "name": "YouTube",
-        "trigger": "!yt ",
+        "trigger": "yt: ",
         "url": "https://www.youtube.com/results?search_query=%s"
     },
     {
-        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{63b429e2-d209-4706-bc2e-a1335a76f686}.",
+        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{dd8802c5-e0d0-4086-a168-82cfe568de79}.png",
         "name": "Merriam-Webster Dictionary",
-        "trigger": "define ",
+        "trigger": "define: ",
         "url": "https://www.merriam-webster.com/dictionary/%s"
     },
     {
-        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{889398f5-9cc1-4441-a8b0-1e0a7f13b2a6}.",
+        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{1052ff7e-d444-422d-afc4-52df7b252d5c}.png",
         "name": "GitHub",
-        "trigger": "!gh ",
+        "trigger": "gh: ",
         "url": "https://github.com/search?utf8=✓&q=%s"
     },
     {
@@ -36,15 +42,27 @@
         "url": "https://www.wolframalpha.com/input/?i=%s"
     },
     {
-        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{5f4b5283-62a3-4537-974f-aa7d65d3728a}.",
+        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{e63855c6-a482-4d2b-bd11-ca2468d07f15}.png",
         "name": "Amazon",
-        "trigger": "!a ",
+        "trigger": "a: ",
         "url": "http://www.amazon.in/s/?field-keywords=%s"
     },
     {
-        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{8532f95f-d424-4ebb-a7ae-14d1d8c1cfd4}.",
+        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{2dc0e6aa-39ef-4df7-bdf9-baf16b93b3d3}.png",
         "name": "Google",
-        "trigger": "!g ",
-        "url": "https://endrypted.google.com/search?q=%s"
+        "trigger": "g: ",
+        "url": "https://encrypted.google.com/search?q=%s"
+    },
+    {
+        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{e4bb9c05-02ac-4782-bad4-486916ea6b71}.png",
+        "name": "Wikipedia",
+        "trigger": "w: ",
+        "url": "https://en.wikipedia.org/wiki/%s"
+    },
+    {
+        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{da271436-d008-4b26-acda-d2c8586052da}.png",
+        "name": "MDN Web Docs",
+        "trigger": "mdn: ",
+        "url": "https://developer.mozilla.org/en-US/search?q=%s"
     }
 ]
