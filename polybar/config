@@ -50,7 +50,7 @@ font-4 = "Font Awesome 5 Brands:pixelsize=10;1"
 
 modules-left =
 modules-center = i3
-modules-right = xbacklight volume player-mpris-tail system-usb-udev temperature cpu memory battery date powermenu
+modules-right = system-usb-udev xbacklight volume player-mpris-tail isactive-bluetooth temperature cpu memory battery date days powermenu
 
 tray-position = left
 tray-padding = 2
@@ -420,6 +420,23 @@ type = custom/script
 exec = ~/.config/polybar/scripts/openweathermap-fullfeatured.sh
 interval = 600
 label-font = 3
+
+[module/isactive-bluetooth]
+type = custom/script
+exec = ~/.config/polybar/scripts/isactive-bluetooth.sh
+interval = 1
+
+[module/info-hackspeed]
+type = custom/script
+exec = ~/.config/polybar/scripts/info-hackspeed.sh
+tail = true
+
+[module/days]
+type = custom/script
+exec = ~/.config/polybar/scripts/days.sh
+interval = 3600
+
+format-underline = #0a6cf5
 
 [global/wm]
 margin-top = 5

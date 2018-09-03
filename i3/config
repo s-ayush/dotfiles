@@ -240,6 +240,7 @@ assign [class="feh"] $workspace3
 assign [class="Gimp-2.10"] $workspace3
 assign [class="Gthumb"] $workspace3
 assign [class="krita"] $workspace3
+assign [class="calibre"] $workspace4
 assign [class="libreoffice" title="*LibreOffice*"] $workspace4
 assign [class="Zathura"] $workspace4
 assign [class="Syncthing GTK"] $workspace5
@@ -249,7 +250,7 @@ assign [class="Signal"] $workspace8
 assign [class="Tor Browser"] $workspace9
 assign [class="Keepassx2"] $workspace9
 assign [class="Quodlibet"] $workspace10
-assign [class="Vlc"] $workspace10
+assign [class="vlc"] $workspace10
 
 # force floating behaviour
 for_window [class="Firefox" title="Library"] floating enable
@@ -280,7 +281,7 @@ exec --no-startup-id exec syncthing-gtk
 exec --no-startup-id exec keepassx2
 
 # wallpaper
-exec_always --no-startup-id exec feh --bg-scale ~/Pictures/EVH.png
+exec_always --no-startup-id exec feh --bg-scale ~/Pictures/arch.png
 
 # screenshot
 bindsym Print exec scrot '%Y-%m-%d_%H:%M:%S.png' -e 'mv $f ~/Pictures/Screenshots/'

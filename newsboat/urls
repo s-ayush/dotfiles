@@ -24,12 +24,9 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCzpVBvuIfhncmI7JDwBCOyg	You
 
 
 # India News
-http://www.thehindu.com/news/national/?service=rss				News/India "~The Hindu - National"
-http://timesofindia.indiatimes.com/rssfeeds/1945062111.cms		News/India "~Sunday Times"
 http://feeds.reuters.com/reuters/INtopNews						News/India "~Reuters - India"
 
 # World News
-http://www.thehindu.com/news/international/?service=rss			News/World "~The Hindu - International"
 http://feeds.reuters.com/reuters/INworldNews					News/World "~Reuters - World"
 
 # Opinion
@@ -40,6 +37,7 @@ http://www.hindustantimes.com/rss/analysis/rssfeed.xml			Opinion "~Hindustan Tim
 # Blogs
 http://calnewport.com/blog/feed/					Blog "~Cal Newport"
 https://eucatastropheweb.wordpress.com/feed/		Blog "~eucatastropheweb"
+https://www.futilitycloset.com/feed/				Blog "~Futility Closet"
 
 https://www.merriam-webster.com/wotd/feed/rss2			 "~Merriam-Webster's Word of the Day"
 

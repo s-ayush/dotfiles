@@ -64,5 +64,17 @@
         "name": "MDN Web Docs",
         "trigger": "mdn: ",
         "url": "https://developer.mozilla.org/en-US/search?q=%s"
+    },
+    {
+        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{9513644e-aff0-4078-9d14-421f5e1feca5}.png",
+        "name": "ArchWiki",
+        "trigger": "aw: ",
+        "url": "https://wiki.archlinux.org/index.php?search=%s"
+    },
+    {
+        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{4c66c976-404b-4387-8f2d-5bca55c89c6c}.png",
+        "name": "Python 3 Documentation",
+        "trigger": "py: ",
+        "url": "https://docs.python.org/3/search.html?q=%s"
     }
 ]

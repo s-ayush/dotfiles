@@ -1,5 +1,6 @@
 export GTK2_RC_FILES=/home/ayush-s/.gtkrc-2.0
-export PATH=$PATH:~/bin
+export GEM_HOME=$HOME/.gem
+export PATH=$(ruby -e 'print Gem.user_dir')/bin:$PATH:~/bin
 export QT_QPA_PLATFORMTHEME=gtk2
 export TEXMFHOME="$TEXMFHOME:~/texmf"
 
