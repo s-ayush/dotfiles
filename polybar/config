@@ -8,6 +8,18 @@
 ;=====================================================
 
 [colors]
+bg = #282828
+text = #ebdbb2
+red = #cc241d
+green = #98971a
+yellow = #d79921
+blue = #458588
+brightblue = #83a598
+purple = #b16286
+aqua = #689d68
+gray = #a89984
+darkgray = #1d2021
+
 ;background = ${xrdb:color0:#222}
 background = #252525
 background-alt = #353535
@@ -27,11 +39,11 @@ height = 22
 radius = 0.0
 fixed-center = false
 
-background = ${colors.background}
-foreground = ${colors.foreground}
+background = ${colors.bg}
+foreground = ${colors.text}
 
-line-size = 2
-line-color = #f00
+line-size = 0
+line-color = ${colors.bg}
 
 border-size = 0
 border-bottom = 0
@@ -50,7 +62,7 @@ font-4 = "Font Awesome 5 Brands:pixelsize=10;1"
 
 modules-left =
 modules-center = i3
-modules-right = system-usb-udev xbacklight volume player-mpris-tail isactive-bluetooth temperature cpu memory battery date days powermenu
+modules-right = system-usb-udev xbacklight volume player-mpris-tail temperature cpu memory battery date days powermenu
 
 tray-position = left
 tray-padding = 2
@@ -130,6 +142,7 @@ type = internal/i3
 format = <label-state> <label-mode>
 index-sort = true
 wrapping-scroll = false
+enable-scroll = false
 
 ; Only show workspaces on the same output as the bar
 ;pin-workspaces = true
@@ -140,8 +153,9 @@ label-mode-background = ${colors.primary}
 
 ; focused = Active workspace on focused monitor
 label-focused = %name%
-label-focused-background = ${module/bspwm.label-focused-background}
-label-focused-underline = ${module/bspwm.label-focused-underline}
+label-focused-background = ${colors.gray}
+label-focused-foreground = ${colors.bg}
+label-focused-underline = ${colors.gray}
 label-focused-padding = ${module/bspwm.label-focused-padding}
 
 ; unfocused = Inactive workspace on any monitor
@@ -156,7 +170,7 @@ label-visible-padding = ${self.label-focused-padding}
 
 ; urgent = Workspace with urgency hint set
 label-urgent = %name%
-label-urgent-background = ${module/bspwm.label-urgent-background}
+label-urgent-background = ${colors.red}
 label-urgent-padding = ${module/bspwm.label-urgent-padding}
 
 [module/mpd]
@@ -199,15 +213,16 @@ card = intel_backlight
 type = internal/cpu
 interval = 2
 format-prefix = " "
-format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #f90000
+format-padding = 2
+format-foreground = ${colors.text}
+format-prefix-foreground = ${colors.text}
 label = %percentage%%
 
 [module/memory]
 type = internal/memory
 interval = 2
 format-prefix = " "
-format-prefix-foreground = ${colors.foreground-alt}
+format-prefix-foreground = ${colors.text}
 format-underline = #4bffdc
 label = %percentage_used%%
 
@@ -309,16 +324,16 @@ label-charging = "%time% "
 
 format-charging-prefix =
 format-charging = <animation-charging> <label-charging>
-format-charging-underline = #f0e400
+format-charging-underline = 
 
-label-discharging = "%time% "
+label-discharging = "%time%"
 format-discharging = <ramp-capacity> <label-discharging>
-format-discharging-underline = ${self.format-charging-underline}
+format-discharging-underline = 
 
-label-full = " Battery charged "
+label-full = " Battery charged"
 format-full-prefix = 
-format-full-prefix-foreground = ${colors.foreground-alt}
-format-full-underline = ${self.format-charging-underline}
+format-full-prefix-foreground = ${colors.text}
+format-full-underline = 
 format-full = <label-full>
 
 ramp-capacity-0 = 
@@ -326,14 +341,14 @@ ramp-capacity-1 = 
 ramp-capacity-2 = 
 ramp-capacity-3 = 
 ramp-capacity-4 = 
-ramp-capacity-foreground = ${colors.foreground-alt}
+ramp-capacity-foreground = ${colors.text}
 
 animation-charging-0 = 
 animation-charging-1 = 
 animation-charging-2 = 
 animation-charging-3 = 
 animation-charging-4 = 
-animation-charging-foreground = ${colors.foreground-alt}
+animation-charging-foreground = ${colors.text}
 animation-charging-framerate = 750
 
 [module/temperature]
@@ -342,7 +357,7 @@ thermal-zone = 0
 warn-temperature = 60
 
 format = <ramp> <label>
-format-underline = #f50a4d
+format-underline =
 format-warn = <ramp> <label-warn>
 format-warn-underline = ${self.format-underline}
 
@@ -361,29 +376,25 @@ type = custom/menu
 expand-right = true
 
 format-spacing = 0
-format-padding = 0
+format-padding = 1
 
 label-open = 
-label-open-foreground = ${colors.secondary}
-label-close = Cancel
-label-close-foreground = ${colors.secondary}
+label-open-foreground = ${colors.red}
+label-close = 
+label-close-foreground = ${colors.red}
 label-separator = |
-label-separator-foreground = ${colors.foreground-alt}
+label-separator-foreground = ${colors.text}
 
-menu-0-0 = Reboot
+menu-0-0 = 
 menu-0-0-exec = menu-open-1
-menu-0-1 = Power off
+menu-0-1 = 
 menu-0-1-exec = menu-open-2
 
-menu-1-0 = Cancel
-menu-1-0-exec = menu-open-0
-menu-1-1 = Reboot
-menu-1-1-exec = systemctl reboot
+menu-1-0 = 
+menu-1-0-exec = systemctl reboot
 
-menu-2-0 = Power off
+menu-2-0 = 
 menu-2-0-exec = systemctl poweroff
-menu-2-1 = Cancel
-menu-2-1-exec = menu-open-0
 
 [settings]
 screenchange-reload = true
@@ -435,8 +446,6 @@ tail = true
 type = custom/script
 exec = ~/.config/polybar/scripts/days.sh
 interval = 3600
-
-format-underline = #0a6cf5
 
 [global/wm]
 margin-top = 5

@@ -16,7 +16,6 @@ smiley () {
 
 export PS1="[\u] \$(smiley) \e[30;1m\w\e[0m\n\$ "
 
-alias cower='cower -c'
 alias cp='cp -i'
 alias feh='feh -.'
 alias grep='grep --color=auto -i'
@@ -31,7 +30,7 @@ alias vi='vim'
 alias youtube='youtube-dl -x --audio-format mp3 --audio-quality 0'
 alias :q='exit'
 
-eval $(keychain --eval --quiet --nogui --noask id_rsa_github)
+eval $(keychain --eval --quiet --nogui --timeout 360)
 
 if [ "$TERM" = "linux" ]; then
     _SEDCMD='s/.*\*color\([0-9]\{1,\}\).*#\([0-9a-fA-F]\{6\}\).*/\1 \2/p'
@@ -40,3 +39,5 @@ if [ "$TERM" = "linux" ]; then
     done
     clear
 fi
+
+exec fish

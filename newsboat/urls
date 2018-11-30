@@ -23,11 +23,10 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCErSSa3CaP_GJxmFpdjG9Jw	You
 https://www.youtube.com/feeds/videos.xml?channel_id=UCzpVBvuIfhncmI7JDwBCOyg	YouTube "~Jack's Movie Reviews"
 
 
-# India News
-http://feeds.reuters.com/reuters/INtopNews						News/India "~Reuters - India"
-
-# World News
-http://feeds.reuters.com/reuters/INworldNews					News/World "~Reuters - World"
+# News
+http://feeds.reuters.com/reuters/INtopNews						News "~Reuters - India"
+https://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms	News "~The Times of India - India News"
+https://timesofindia.indiatimes.com/rssfeeds/296589292.cms		News "~The Times of India - World News"
 
 # Opinion
 http://www.thehindu.com/opinion/editorial/?service=rss			Opinion	"~The Hindu - Editorial"

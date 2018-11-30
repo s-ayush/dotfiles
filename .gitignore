@@ -1,6 +1,4 @@
 /*
-albert/core.db
-beets/library.db
 
 !albert
 !beets
@@ -14,3 +12,6 @@ beets/library.db
 !redshift.conf
 !termite/
 !.gitignore
+
+albert/core.db
+beets/library.db
