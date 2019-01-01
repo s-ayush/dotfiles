@@ -5,9 +5,9 @@ export QT_QPA_PLATFORMTHEME=gtk2
 export TEXMFHOME="$TEXMFHOME:~/texmf"
 export $(dbus-launch)
 
-if [ -n "${DISPLAY+x}" ]; then
-	xmodmap ~/.Xmodmap
-fi
+# if [ -n "${DISPLAY+x}" ]; then
+#	xmodmap ~/.Xmodmap
+# fi
 
 # Must always remain at the end of the file
 # if [ -z "$DISPLAY" ] && [ -n "$XDG_VTNR" ] && [ "$XDG_VTNR" -eq 1 ]; then

@@ -2,7 +2,7 @@
 allow_bold = true
 #audible_bell = false
 clickable_url = true
-#dynamic_title = true
+dynamic_title = false
 font = Mono 10
 #fullscreen = true
 geometry = 95x32

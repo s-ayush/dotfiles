@@ -415,9 +415,9 @@ click-middle = playerctl play-pause
 type = custom/script
 exec = ~/.config/polybar/scripts/player-mpris-tail.py
 tail = true
-click-left = ~/.config/polybar/scripts/player-ctrl.sh previous
+click-left = ~/.config/polybar/scripts/player-ctrl.sh play-pause
 click-right = ~/.config/polybar/scripts/player-ctrl.sh next
-click-middle = ~/.config/polybar/scripts/player-ctrl.sh play-pause
+click-middle = ~/.config/polybar/scripts/player-ctrl.sh previous
 
 [module/system-usb-udev]
 type = custom/script

@@ -37,6 +37,7 @@ http://www.hindustantimes.com/rss/analysis/rssfeed.xml			Opinion "~Hindustan Tim
 http://calnewport.com/blog/feed/					Blog "~Cal Newport"
 https://eucatastropheweb.wordpress.com/feed/		Blog "~eucatastropheweb"
 https://www.futilitycloset.com/feed/				Blog "~Futility Closet"
+http://localhost:4000/feed.xml						Blog "~NISER SDG"
 
 https://www.merriam-webster.com/wotd/feed/rss2			 "~Merriam-Webster's Word of the Day"
 

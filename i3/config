@@ -31,7 +31,7 @@ set $right l
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec termite
+bindsym $mod+Return exec st
 
 # start firefox
 bindsym $mod+Shift+f exec firefox
@@ -239,6 +239,7 @@ exec --no-startup-id exec i3-battery-popup -L 15 -n -i standard
 
 # force windows on specific workspaces
 assign [class="Termite"] $workspace1
+assign [class="st-256color"] $workspace1
 assign [class="Firefox"] $workspace2
 assign [class="Firefox Developer Edition"] $workspace2
 assign [class="feh"] $workspace3
@@ -287,6 +288,7 @@ exec --no-startup-id exec redshift
 exec --no-startup-id exec syncthing-gtk
 exec --no-startup-id exec /usr/lib/kdeconnectd
 exec --no-startup-id exec indicator-kdeconnect
+exec --no-startup-id exec xmodmap ~/.Xmodmap
 
 # wallpaper
 exec_always --no-startup-id exec feh --bg-scale ~/Pictures/wallpaper.png

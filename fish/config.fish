@@ -1,1 +1,2 @@
-. "$HOME/.config/fish/functions/aliases.fish"
+source ~/.config/fish/functions/aliases.fish
+eval (python -m virtualfish)
