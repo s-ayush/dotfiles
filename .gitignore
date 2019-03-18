@@ -15,5 +15,8 @@
 !.gitignore
 
 albert/core.db
+albert/last_used_version
+albert/QtProject.conf
+
 beets/library.db
 fish/fishd.Cyanide
