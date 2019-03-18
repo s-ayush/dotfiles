@@ -1,36 +1,36 @@
 [
     {
-        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{ba94ba47-3701-46f1-b9ca-6a9fe9eb504e}.png",
+        "iconPath": "/home/ayush/.config/albert/org.albert.extension.websearch/{ba94ba47-3701-46f1-b9ca-6a9fe9eb504e}.png",
         "name": "DuckDuckGo",
         "trigger": "duck: ",
         "url": "https://duckduckgo.com/?q=%s"
     },
     {
-        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{d39c8867-141d-443d-8e49-79b7ed8db424}.png",
+        "iconPath": "/home/ayush/.config/albert/org.albert.extension.websearch/{d39c8867-141d-443d-8e49-79b7ed8db424}.png",
         "name": "DuckDuckGo Images",
         "trigger": "img: ",
         "url": "https://duckduckgo.com/?q=%s&t=h_&iax=images&ia=images"
     },
     {
-        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{ef777b38-ea6a-4b6e-84ea-ce04da4b15f0}.png",
+        "iconPath": "/home/ayush/.config/albert/org.albert.extension.websearch/{ef777b38-ea6a-4b6e-84ea-ce04da4b15f0}.png",
         "name": "Go to Subreddit",
         "trigger": "r/",
         "url": "https://www.reddit.com/r/%s"
     },
     {
-        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{ad60e4b7-c898-49e9-adfa-af894776cd0c}.png",
+        "iconPath": "/home/ayush/.config/albert/org.albert.extension.websearch/{ad60e4b7-c898-49e9-adfa-af894776cd0c}.png",
         "name": "YouTube",
         "trigger": "yt: ",
         "url": "https://www.youtube.com/results?search_query=%s"
     },
     {
-        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{dd8802c5-e0d0-4086-a168-82cfe568de79}.png",
+        "iconPath": "/home/ayush/.config/albert/org.albert.extension.websearch/{dd8802c5-e0d0-4086-a168-82cfe568de79}.png",
         "name": "Merriam-Webster Dictionary",
         "trigger": "define: ",
         "url": "https://www.merriam-webster.com/dictionary/%s"
     },
     {
-        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{1052ff7e-d444-422d-afc4-52df7b252d5c}.png",
+        "iconPath": "/home/ayush/.config/albert/org.albert.extension.websearch/{1052ff7e-d444-422d-afc4-52df7b252d5c}.png",
         "name": "GitHub",
         "trigger": "gh: ",
         "url": "https://github.com/search?utf8=✓&q=%s"
@@ -42,37 +42,37 @@
         "url": "https://www.wolframalpha.com/input/?i=%s"
     },
     {
-        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{e63855c6-a482-4d2b-bd11-ca2468d07f15}.png",
+        "iconPath": "/home/ayush/.config/albert/org.albert.extension.websearch/{e63855c6-a482-4d2b-bd11-ca2468d07f15}.png",
         "name": "Amazon",
         "trigger": "a: ",
         "url": "http://www.amazon.in/s/?field-keywords=%s"
     },
     {
-        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{2dc0e6aa-39ef-4df7-bdf9-baf16b93b3d3}.png",
+        "iconPath": "/home/ayush/.config/albert/org.albert.extension.websearch/{2dc0e6aa-39ef-4df7-bdf9-baf16b93b3d3}.png",
         "name": "Google",
         "trigger": "g: ",
         "url": "https://encrypted.google.com/search?q=%s"
     },
     {
-        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{e4bb9c05-02ac-4782-bad4-486916ea6b71}.png",
+        "iconPath": "/home/ayush/.config/albert/org.albert.extension.websearch/{e4bb9c05-02ac-4782-bad4-486916ea6b71}.png",
         "name": "Wikipedia",
         "trigger": "w: ",
         "url": "https://en.wikipedia.org/wiki/%s"
     },
     {
-        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{da271436-d008-4b26-acda-d2c8586052da}.png",
+        "iconPath": "/home/ayush/.config/albert/org.albert.extension.websearch/{da271436-d008-4b26-acda-d2c8586052da}.png",
         "name": "MDN Web Docs",
         "trigger": "mdn: ",
         "url": "https://developer.mozilla.org/en-US/search?q=%s"
     },
     {
-        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{9513644e-aff0-4078-9d14-421f5e1feca5}.png",
+        "iconPath": "/home/ayush/.config/albert/org.albert.extension.websearch/{9513644e-aff0-4078-9d14-421f5e1feca5}.png",
         "name": "ArchWiki",
         "trigger": "aw: ",
         "url": "https://wiki.archlinux.org/index.php?search=%s"
     },
     {
-        "iconPath": "/home/ayush-s/.config/albert/org.albert.extension.websearch/{4c66c976-404b-4387-8f2d-5bca55c89c6c}.png",
+        "iconPath": "/home/ayush/.config/albert/org.albert.extension.websearch/{4c66c976-404b-4387-8f2d-5bca55c89c6c}.png",
         "name": "Python 3 Documentation",
         "trigger": "py: ",
         "url": "https://docs.python.org/3/search.html?q=%s"
