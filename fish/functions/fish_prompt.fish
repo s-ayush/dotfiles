@@ -43,7 +43,7 @@ function fish_prompt
 	end
 
     # Actual prompt
-	set_color grey
+    set_color grey
     set_color --bold
-    printf "\n\$ "
+    printf "\n><> "
 end
