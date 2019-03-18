@@ -31,7 +31,7 @@ set $right l
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec st
+bindsym $mod+Return exec alacritty
 
 # start firefox
 bindsym $mod+Shift+f exec firefox
@@ -98,7 +98,8 @@ set $workspace3 "3: "
 set $workspace4 "4: "
 set $workspace5 "5: "
 set $workspace6 "6: "
-set $workspace7 "7: "
+#set $workspace7 "7: "
+set $workspace7 "7: "
 set $workspace8 "8: "
 set $workspace9 "9: "
 set $workspace10 "10: "
@@ -207,7 +208,7 @@ client.urgent			$red $red $white $red $red
 # Start i3bar to display a workspace bar (plus the system information i3blocks
 # finds out, if available)
 # bar {
-# 	status_command i3blocks -c /home/ayush-s/.config/i3blocks/config
+# 	status_command i3blocks -c /home/ayush/.config/i3blocks/config
 # 	font pango:Sans 9
 # 
 # colors {
@@ -232,14 +233,14 @@ bindsym XF86AudioNext exec "playerctl next"
 bindsym XF86AuidoPrev exec "playerctl previous"
 
 # toggle touchpad
-bindsym $mod+Escape exec "/home/ayush-s/.config/i3/scripts/toggle-touchpad.sh"
+bindsym $mod+Escape exec "/home/ayush/.config/i3/scripts/toggle-touchpad.sh"
 
 # battery low warning
-exec --no-startup-id exec i3-battery-popup -L 15 -n -i standard
+exec --no-startup-id exec batsignal -b C "bro u ded"
 
 # force windows on specific workspaces
 assign [class="Termite"] $workspace1
-assign [class="st-256color"] $workspace1
+assign [class="Alacritty"] $workspace1
 assign [class="Firefox"] $workspace2
 assign [class="Firefox Developer Edition"] $workspace2
 assign [class="feh"] $workspace3
@@ -266,7 +267,7 @@ for_window [class="Thunderbird" title="Calendar"] floating enable
 for_window [class="albert" title="Settings"] floating enable
 
 # window borders
-for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 1
 for_window [class="albert"] border pixel 0
 
 # lock screen using slock
@@ -276,16 +277,16 @@ bindsym $mod+Shift+x exec slock
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 # compton
-exec --no-startup-id exec compton --config /home/ayush-s/.config/compton.conf -b --focus-exclude 'class_g = "i3-frame"'
+exec --no-startup-id exec compton --config /home/ayush/.config/compton.conf -b --focus-exclude 'class_g = "i3-frame"'
 
 # start up applications
 exec --no-startup-id exec albert 
 exec --no-startup-id exec dunst
-exec --no-startup-id exec franz
 exec --no-startup-id exec keepassx2
 exec --no-startup-id exec nm-applet
 exec --no-startup-id exec redshift
 exec --no-startup-id exec syncthing-gtk
+exec --no-startup-id exec udiskie --no-automount --notify --smart-tray --menu nested
 exec --no-startup-id exec /usr/lib/kdeconnectd
 exec --no-startup-id exec indicator-kdeconnect
 exec --no-startup-id exec xmodmap ~/.Xmodmap
