@@ -35,6 +35,10 @@
 *color7:  #a89984
 *color15: #ebdbb2
 
-URxvt.font: xft:Fira Mono:size=10:antialias=true
-URxvt.letterSpace: 4
-URxvt.scrollBar: false
+XTerm.termName: xterm-256color
+XTerm.vt100.locale: true
+XTerm.vt100.metaSendsEscape: true
+XTerm.vt100.backarrowKey: false
+XTerm.ttyModes: erase ^?
+XTerm.vt100.saveLines: 4096
+XTerm.vt100.faceName: Fira Mono:size=10:antialias=false
