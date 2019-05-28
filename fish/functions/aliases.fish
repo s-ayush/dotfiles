@@ -29,3 +29,7 @@ alias p="cd ~/Projects"
 alias sdg="cd ~/Projects/NISER-SDG/"
 alias vi="vim"
 alias :q="exit"
+
+alias stopserver="sudo systemctl stop httpd"
+alias startserver="sudo systemctl start httpd; echo 'Apache server started on:'; ip addr | grep --color=never -E 'inet.*enp2s0'"
+alias rustbook="rustup docs --book"

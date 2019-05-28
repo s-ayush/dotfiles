@@ -255,6 +255,7 @@ assign [class="Syncthing GTK"] $workspace5
 assign [class="Syncthing-gtk"] $workspace5
 assign [class="qBittorrent"] $workspace5
 assign [class="Franz"] $workspace8
+assign [class="Hexchat"] $workspace8
 assign [class="Signal"] $workspace8
 assign [class="Tor Browser"] $workspace9
 assign [class="Keepassx2"] $workspace9
@@ -282,6 +283,7 @@ exec --no-startup-id exec compton --config /home/ayush/.config/compton.conf -b -
 # start up applications
 exec --no-startup-id exec albert 
 exec --no-startup-id exec dunst
+exec --no-startup-id exec hexchat
 exec --no-startup-id exec keepassx2
 exec --no-startup-id exec nm-applet
 exec --no-startup-id exec redshift
