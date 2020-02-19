@@ -1,45 +1,13 @@
-# YouTube
-https://www.youtube.com/feeds/videos.xml?channel_id=UC2C_jShtL725hvbm1arSV9w	YouTube "~CGP Grey"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCimiUgDLbi6P17BdaCZpVbg	YouTube	"~exurb1a"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCUHW94eEFW7hkUMVaZz4eDg	YouTube	"~MinutePhysics"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCeiYXex_fwgYDonaTcSIk6w	YouTube	"~MinuteEarth"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCvBqzzvUBLCs8Y7Axb-jZew	YouTube "~Sixty Symbols"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCoxcjq-8xIDTYp3uz647V5A	YouTube "~Numberphile"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCkyfHZ6bY2TjqbJhiH8Y2QQ	YouTube "~thebrainscoop"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCzR-rom72PHN9Zg7RML9EbA	YouTube "~Eons"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC6107grRI4m0o2-emgoDnAA	YouTube "~SmarterEveryDay"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCZYTClx2T1of7BRZ86-8fow	YouTube "~SciShow"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCivA7_KLKWo43tFcCkFvydw	YouTube "~Applied Science"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCTev4RNBiu6lqtx8z1e87fQ	YouTube "~Acapella Science"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCWXCrItCF6ZgXrdozUS-Idw	YouTube "~ExplosmEntertainment"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCo8bcnLyZH8tBIH9V1mLgqQ	YouTube "~TheOdd1sOut"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCGwu0nbY2wSkW8N-cghnLpA	YouTube "~JaidenAnimations"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCGaVdbSav8xWuFWTadK6loA	YouTube	"~vlogbrothers"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCeE3lj6pLX_gCd0Yvns517Q	YouTube "~Ozzy Man Reviews"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCWTFGPpNQ0Ms6afXhaWDiRw	YouTube	"~Now You See It"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCqC_GY2ZiENFz2pwL0cSfAw	YouTube "~Green Day"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC6-ymYjG0SU0jUWnWh9ZzEQ	YouTube "~Wisecrack"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCErSSa3CaP_GJxmFpdjG9Jw	YouTube "~Lessons From the Screenplay"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCzpVBvuIfhncmI7JDwBCOyg	YouTube "~Jack's Movie Reviews"
-
-
 # News
 http://feeds.reuters.com/reuters/INtopNews						News "~Reuters - India"
-http://feeds.feedburner.com/ndtvnews-india-news					News "~NDTV - India"
-https://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms	News "~The Times of India - India"
 
 # Opinion
-http://www.thehindu.com/opinion/editorial/?service=rss			Opinion	"~The Hindu - Editorial"
-http://www.hindustantimes.com/rss/editorials/rssfeed.xml		Opinion "~Hindustan Times - Editorial"
-http://www.hindustantimes.com/rss/analysis/rssfeed.xml			Opinion "~Hindustan Times - Analysis"
+https://feed.rssunify.com/5d0934e70dcc1/rss.xml					Opinion "~The Hindu - Opinion"
 
 # Blogs
 http://calnewport.com/blog/feed/					Blog "~Cal Newport"
+http://www.cgpgrey.com/blog?format=rss				Blog "~CGP Grey"
 https://eucatastropheweb.wordpress.com/feed/		Blog "~eucatastropheweb"
-https://www.futilitycloset.com/feed/				Blog "~Futility Closet"
-https://www.allendowney.com/blog/feed				Blog "~Probably Overthinking It"
-
-https://www.merriam-webster.com/wotd/feed/rss2			 "~Merriam-Webster's Word of the Day"
 
 # Webcomics
 http://xkcd.com/rss.xml					Webcomic "~xkcd"
@@ -48,6 +16,12 @@ http://phdcomics.com/gradfeed.php		Webcomic "~Piled Higher and Deeper"
 http://feeds.feedburner.com/Explosm		Webcomic "~Cyanide & Happiness"
 http://theodd1sout.com/feed/			Webcomic "~TheOdd1sOutComics"
 
-# Link Aggregators
-https://longform.org/feed.rss/			Aggregator "~Longform"
-https://www.aldaily.com/feed/			Aggregator "~Art and Letters Daily"
+# YouTube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCLuHOqDilyLQT4NPXQuVN4Q		YouTube "~Ben Levin"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCnkp4xDOwqqJD7sSM3xdUiQ		YouTube "~Adam Neely"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC8R8FRt1KcPiR-rtAflXmeg		YouTube "~Nahre Sol"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCn1XB-jvmd9fXMzhiA6IR0w		YouTube "~Domics"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCo8bcnLyZH8tBIH9V1mLgqQ		YouTube "~TheOdd1sOut"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCGwu0nbY2wSkW8N-cghnLpA		YouTube "~Jaiden Animations"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCeE3lj6pLX_gCd0Yvns517Q		YouTube "~Ozzy Man Reviews"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCG1h-Wqjtwz7uUANw6gazRw		YouTube "~Lindsay Ellis"

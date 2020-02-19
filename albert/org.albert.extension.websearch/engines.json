@@ -76,5 +76,11 @@
         "name": "Python 3 Documentation",
         "trigger": "py: ",
         "url": "https://docs.python.org/3/search.html?q=%s"
+    },
+    {
+        "iconPath": "/home/ayush/.config/albert/org.albert.extension.websearch/{28e8739c-518a-4c3a-a266-ce3d203dcee9}.png",
+        "name": "Arch User Repository",
+        "trigger": "aur: ",
+        "url": "https://aur.archlinux.org/packages/?K=%s"
     }
 ]

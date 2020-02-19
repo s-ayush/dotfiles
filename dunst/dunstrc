@@ -73,7 +73,7 @@
     # The transparency of the window.  Range: [0; 100].
     # This option will only work if a compositing windowmanager is
     # present (e.g. xcompmgr, compiz, etc.).
-    transparency = 15 
+    transparency = 2
     
     # Don't remove messages, if the user is idle (no mouse or keyboard input)
     # for longer than idle_threshold seconds.
@@ -142,10 +142,13 @@
     browser = /usr/bin/firefox -new-tab
 
     # Align icons left/right/off
-    icon_position = right
+    icon_position = left
 
     # Paths to default icons.
-    icon_folders = /usr/share/icons/Numix/16/status:/usr/share/icons/Numix/16/devices
+    icon_folders = /usr/share/icons/Paper/16x16/status:/usr/share/icons/Paper/16x16/devices
+
+	# Icon max size
+	max_icon_size = 32
 
 [frame]
     width = 1

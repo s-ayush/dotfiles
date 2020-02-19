@@ -17,6 +17,8 @@
 albert/core.db
 albert/last_used_version
 albert/QtProject.conf
+albert/org.albert.frontend.qmlboxmodel
 
 beets/library.db
+beets/state.pickle
 fish/fishd.Cyanide

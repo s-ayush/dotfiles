@@ -26,10 +26,16 @@ alias youtube="youtube-dl -x --audio-format mp3 --audio-quality 0"
 alias D="cd ~/Downloads"
 alias g="git"
 alias p="cd ~/Projects"
-alias sdg="cd ~/Projects/NISER-SDG/"
+alias sdg="cd ~/Projects/sdg/"
 alias vi="vim"
 alias :q="exit"
 
 alias stopserver="sudo systemctl stop httpd"
 alias startserver="sudo systemctl start httpd; echo 'Apache server started on:'; ip addr | grep --color=never -E 'inet.*enp2s0'"
 alias rustbook="rustup docs --book"
+
+alias start_ap="sudo systemctl start create_ap"
+alias restart_ap="sudo systemctl restart create_ap"
+alias stop_ap="sudo systemctl stop create_ap"
+
+alias update="yay -Syu --sudoloop"

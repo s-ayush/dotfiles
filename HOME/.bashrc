@@ -30,7 +30,7 @@ alias vi='vim'
 alias youtube='youtube-dl -x --audio-format mp3 --audio-quality 0'
 alias :q='exit'
 
-eval $(keychain --eval --quiet --nogui --timeout 360)
+eval $(keychain --eval --quiet --nogui --timeout 1440)
 
 if [ "$TERM" = "linux" ]; then
     _SEDCMD='s/.*\*color\([0-9]\{1,\}\).*#\([0-9a-fA-F]\{6\}\).*/\1 \2/p'

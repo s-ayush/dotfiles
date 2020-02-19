@@ -12,6 +12,8 @@ export $(dbus-launch)
 export PATH="$HOME/.node_modules/bin:$PATH"
 export npm_config_prefix=~/.node_modules
 
+setleds -D +num
+
 # if [ -n "${DISPLAY+x}" ]; then
 #	xmodmap ~/.Xmodmap
 # fi
